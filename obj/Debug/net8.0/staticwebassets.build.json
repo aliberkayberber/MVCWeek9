@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "9RcahphFbY7VL8o2XC9ORIVwyszjBRXc9r6F4if/BWM=",
+  "Source": "MVCWeek9",
+  "BasePath": "_content/MVCWeek9",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVCWeek9/wwwroot",
+      "Source": "MVCWeek9",
+      "ContentRoot": "/Users/aliberkayberber/Documents/Pratikler/MVCWeek9/wwwroot/",
+      "BasePath": "_content/MVCWeek9",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/aliberkayberber/Documents/Pratikler/MVCWeek9/wwwroot/lib/bootstrap.css",
+      "SourceId": "MVCWeek9",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/aliberkayberber/Documents/Pratikler/MVCWeek9/wwwroot/",
+      "BasePath": "_content/MVCWeek9",
+      "RelativePath": "lib/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap.css"
+    }
+  ]
+}

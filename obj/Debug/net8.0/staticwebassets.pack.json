@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/aliberkayberber/Documents/Pratikler/MVCWeek9/wwwroot/lib/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MVCWeek9.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MVCWeek9.props",
+      "PackagePath": "build\\MVCWeek9.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MVCWeek9.props",
+      "PackagePath": "buildMultiTargeting\\MVCWeek9.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MVCWeek9.props",
+      "PackagePath": "buildTransitive\\MVCWeek9.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

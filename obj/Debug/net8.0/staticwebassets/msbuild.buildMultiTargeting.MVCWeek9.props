@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/MVCWeek9.props" />
+</Project>

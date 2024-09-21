@@ -1,0 +1,57 @@
+@model List<BookListViewModel>
+
+    <div class="alert alert-info fw-bold">
+        Welcome @User.Claims.FirstOrDefault(x => x.Type == "email")?.Value -
+        
+    </div>
+
+
+
+
+
+
+<h1>Book List</h1>
+
+<p>
+    <a asp-controller="Book" asp-action="Creat"  class="btn btn-primary">Create New Book</a>
+</p>
+<table class="table">
+        <thead>
+            <th>Id</th>
+            <th>Author</th>
+            <th>Book Name</th>
+            <th>Genre</th>
+            <th>Operations</th>
+        </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.AuthorName
+            </td>
+            <td>
+                @item.Title
+            </td>
+            <td>
+                @item.Genre
+            </td>
+            @if(@User.Claims.FirstOrDefault(x => x.Type == "id")?.Value is not null)
+            {
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            </td>
+            }
+        
+
+        
+
+        </tr>
+}
+    </tbody>
+</table>
+

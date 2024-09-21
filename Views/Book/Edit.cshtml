@@ -1,0 +1,30 @@
+@model BookEditViewModel
+
+<h3>Book Editing Page</h3>
+
+<form method="post" asp-controller="Book" asp-action="Edit">
+
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label>Kitap İsmi</label>
+        <input asp-for="Title" class="form-control" type="text" />
+        <span asp-validation-for="Title" class="text-danger mt-2 fw-bold"></span>
+    </div>
+
+    <div>
+        <label>Tür</label>
+        <textarea asp-for="Genre" rows="1" class="form-control"></textarea>
+        <span asp-validation-for="Genre" class="text-danger mt-2 fw-bold"></span>
+    </div>
+
+    <div>
+        <label>Yazar</label>
+        <select asp-for="AuthorId" asp-items="@(    new SelectList(ViewBag.Owners, "Id", "FullName")     )"
+            class="form-control">
+            <option selected disabled>Seçiniz</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">Kaydet</button>
+</form>

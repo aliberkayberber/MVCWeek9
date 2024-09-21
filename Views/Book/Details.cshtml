@@ -1,0 +1,42 @@
+@model BookDetailsViewModel
+
+<h3>Kitap detayları</h3>
+
+<table class="table">
+        <thead>
+            <th>Kitap Adı</th>
+            <th>Tür</th>
+            <th>ISBN No</th>
+            <th>Kopya Sayısı</th>
+            <th>Yayınlanma tarihi</th>
+            <th>Yazar</th>
+        </thead>
+    <tbody>
+
+        <tr >
+            <td>
+                @Model.Title
+            </td>
+            <td>
+                @Model.Genre
+            </td>
+            <td>
+                @Model.ISBN
+            </td>
+            <td>
+                @Model.CopiesAvailable
+            </td>
+            <td>
+                @Model.PublishedDate
+            </td>
+            <td >
+                        <select disabled asp-for= "AuthorId" asp-items="@(    new SelectList(ViewBag.Owners, "Id", "FullName")     )" class="form-control ">
+                     <option selected disabled>Seçiniz</option>
+        
+                    </select>
+            </td>
+
+        </tr>
+
+    </tbody>
+</table>

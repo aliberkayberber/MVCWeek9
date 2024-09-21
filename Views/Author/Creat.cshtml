@@ -1,0 +1,25 @@
+@model AuthorCreatViewModel
+
+<h3>New Add Author Page</h3>
+
+<form method="post" asp-controller="Author" asp-action="Creat">
+    <div>
+        <label>Author First Name</label>
+        <input asp-for= "FirstName" class="form-control" type="text"/>
+        <span asp-validation-for="FirstName" class="text-danger mt-2 fw-bold"></span>
+    </div>
+
+    <div>
+        <label>Author Last Name</label>
+        <textarea asp-for= "LastName" rows="1" class="form-control"></textarea>
+        <span asp-validation-for="LastName" class="text-danger mt-2 fw-bold"></span>
+    </div>
+
+    <div>
+        <label>Author Birthday(yyyy/month/day)</label>
+        <input asp-for= "DateOfBirth" class="form-control" type="text"/>
+        <span asp-validation-for="DateOfBirth" class="text-danger mt-2 fw-bold"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">Kaydet</button>
+</form>
