@@ -19,7 +19,19 @@ This is the assignment for Path's full stack .Net developer course. In the assig
     ** Microsoft.AspNetCore.Authentication.Cookies;
     ** Microsoft.AspNetCore.DataProtection;
 
+## Pages
 
-## License
+![image](https://github.com/aliberkayberber/MVCWeek9/blob/main/Home.png)
 
-A short snippet describing the license ([MIT](http://opensource.org/licenses/mit-license.php), [Apache](http://opensource.org/licenses/Apache-2.0), etc.)
+![image](https://github.com/aliberkayberber/MVCWeek9/blob/main/Sign%20In.png)
+
+![image](https://github.com/aliberkayberber/MVCWeek9/blob/main/Sign%20Up.png)
+
+![image](https://github.com/aliberkayberber/MVCWeek9/blob/main/Author%20List%20without%20Sign%20In.png)
+
+![image](https://github.com/aliberkayberber/MVCWeek9/blob/main/Author%20List%20with%20Sign%20In.png)
+
+![image](https://github.com/aliberkayberber/MVCWeek9/blob/main/Book%20List%20without%20Sign%20In.png)
+
+![image](https://github.com/aliberkayberber/MVCWeek9/blob/main/Book%20List%20With%20Sign%20In.png)
+
