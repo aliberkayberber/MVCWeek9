@@ -29,3 +29,4 @@
 /Users/aliberkayberber/Documents/Pratikler/MVCWeek9/bin/Debug/net8.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 /Users/aliberkayberber/Documents/Pratikler/MVCWeek9/obj/Debug/net8.0/MVCWeek9.csproj.AssemblyReference.cache
 /Users/aliberkayberber/Documents/Pratikler/MVCWeek9/obj/Debug/net8.0/MVCWeek9.csproj.Up2Date
+/Users/aliberkayberber/Documents/Pratikler/MVCWeek9/obj/Debug/net8.0/MVCWeek9.sourcelink.json
