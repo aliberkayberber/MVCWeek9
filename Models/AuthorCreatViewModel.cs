@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MVCWeek9.Models;
 
-public class AuthorCreatViewModel
+public class AuthorCreatViewModel  // to exchange data from Authorcontroller to Creat view
 {
     [Required (ErrorMessage ="Boş bırakılamaz.")]
     public string FirstName {get;set;}

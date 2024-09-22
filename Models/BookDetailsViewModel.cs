@@ -3,7 +3,7 @@ using MVCWeek9.Entities;
 
 namespace MVCWeek9.Models;
 
-public class BookDetailsViewModel
+public class BookDetailsViewModel  // to exchange data from Bookcontroller to Details view
 {
     public string Title{get;set;}
     public int AuthorId{get;set;}  // author referans

@@ -1,6 +1,6 @@
 namespace MVCWeek9.Entities;
 
-public class AuthorEntity
+public class AuthorEntity  // a Author data
 {
     public int Id {get;set;}
     public string FirstName {get;set;}

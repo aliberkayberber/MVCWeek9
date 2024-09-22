@@ -1,6 +1,6 @@
 namespace MVCWeek9.Entities;
 
-public class UserEntity
+public class UserEntity // a user data
 {
 
     public UserEntity() // when user creat date time creat

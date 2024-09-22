@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MVCWeek9.Models;
 
-public class AuthorEditViewModel
+public class AuthorEditViewModel  // to exchange data from Authorcontroller to Edit view
 {
     public int Id {get;set;}
 

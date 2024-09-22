@@ -3,7 +3,7 @@ using MVCWeek9.Entities;
 
 namespace MVCWeek9.Models;
 
-public class BookCreatViewModel
+public class BookCreatViewModel  // to exchange data from Bookcontroller to Creat view
 {
     [Required (ErrorMessage ="Kitabın adını girmek zorunludur.")]
     public string Title {get;set;}

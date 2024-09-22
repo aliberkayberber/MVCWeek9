@@ -1,6 +1,6 @@
 namespace MVCWeek9.Models;
 
-public class AuthorDetailsViewModel
+public class AuthorDetailsViewModel  // to exchange data from Authorcontroller to Detais view
 {
     public int Id {get;set;}
     public string FirstName {get;set;}

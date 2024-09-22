@@ -1,6 +1,6 @@
 namespace MVCWeek9.Entities;
 
-public class BookEntity
+public class BookEntity  // a book data
 {
     public int Id{get;set;}
     public string Title{get;set;}

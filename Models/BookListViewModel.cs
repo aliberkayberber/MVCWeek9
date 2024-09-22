@@ -1,6 +1,6 @@
 namespace MVCWeek9.Models;
 
-public class BookListViewModel
+public class BookListViewModel  // to exchange data from Bookcontroller to List view
 {
     public int Id{get;set;}
     public string Title{get;set;}

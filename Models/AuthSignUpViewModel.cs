@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MVCWeek9.Models
 {
-    public class AuthSignUpViewModel
+    public class AuthSignUpViewModel  // to exchange data from Authcontroller to Sign Up view
     {
         public string Email {get;set;}
         public string FullName {get;set;}
