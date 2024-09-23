@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/aliberkayberber/Documents/Pratikler/MVCWeek9
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/aliberkayberber/Documents/Pratikler/MVCWeek9/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/aliberkayberber/Documents/Pratikler/MVCWeek9/Views/Auth/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9TaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
